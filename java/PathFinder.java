@@ -1,6 +1,6 @@
 /*    
  * A* algorithm implementation.
- * Copyright (C) 2007 Giuseppe Scrivano <gscrivano@gnu.org>
+ * Copyright (C) 2007, 2009 Giuseppe Scrivano <gscrivano@gnu.org>
 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,6 +18,9 @@
 
 import java.util.*;
 
+/*
+ * Example.
+ */
 public class PathFinder extends AStar<PathFinder.Node>
 {
 		private int[][] map;
